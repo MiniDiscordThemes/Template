@@ -2,22 +2,21 @@
 [dark]: https://user-images.githubusercontent.com/29710355/231909520-b24c4301-2d90-4c6c-9e5d-ca9ce20e3ba6.png
 
 # Template Discord Theme
-[![GitHub downloads](https://img.shields.io/github/downloads/saltssaumure/template-discord-theme/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/Saltssaumure/template-discord-theme/releases/latest "Latest release")
-![Total size](https://img.shields.io/github/repo-size/saltssaumure/template-discord-theme?style=flat-square "Total size")
+[![GitHub downloads](https://img.shields.io/github/downloads/MiniDiscordThemes/Template/total?color=purple&label=GitHub%20downloads&style=flat-square)](https://github.com/MiniDiscordThemes/Template/releases/latest "Latest release")
+![Total size](https://img.shields.io/github/repo-size/MiniDiscordThemes/Template?style=flat-square "Total size")
 
-***A something something Discord theme.***
+***A template Discord theme.***
 
-| Light mode                                                  | Dark mode                                                 |
-| ----------------------------------------------------------- | --------------------------------------------------------- |
-| ![Screenshot of Temp light mode applied to Discord][light] | ![Screenshot of Temp dark mode applied to Discord][dark] |
+| Light mode                                                     | Dark mode                                                    |
+|----------------------------------------------------------------|--------------------------------------------------------------|
+| ![Screenshot of Template light mode applied to Discord][light] | ![Screenshot of Template dark mode applied to Discord][dark] |
 
 ## Installation
 
 ### BetterDiscord
 1. Install [BetterDiscord](https://betterdiscord.app/).
 2. Download the theme file:
-    - [GitHub](https://github.com/Saltssaumure/template-discord-theme/releases/latest)
-    - [BD Store](https://betterdiscord.app/theme/?id=000)
+    - [GitHub](https://github.com/MiniDiscordThemes/Template/releases/latest)
 3. Place theme file in the `themes` folder:
     - Windows: `%AppData%/BetterDiscord/themes`
     - Mac: `~/Library/Application Support/betterdiscord/themes`
@@ -26,13 +25,13 @@
 ### Replugged
 1. Install [Replugged](https://replugged.dev/).
 2. Install the theme:
-    - [GitHub](https://github.com/Saltssaumure/template-discord-theme/releases/latest)
-    - [Replugged.dev](https://replugged.dev/install?identifier=Saltssaumure/template-discord-theme&source=github)
+    - [GitHub](https://github.com/MiniDiscordThemes/Template/releases/latest)
+    - [Replugged.dev](https://replugged.dev/install?identifier=MiniDiscordThemes/Template&source=github)
 
 ### Vencord
 1. Install [Vencord](https://github.com/Vendicated/Vencord).
-2. Paste the following in Themes:
-    - `https://saltssaumure.github.io/template-discord-theme/Template.theme.css`
+2. Paste the following in `Settings` > `Vencord` > `Themes`:
+    - `https://minidiscordthemes.github.io/Template/Template.theme.css`
 
 ## Customisation
 
@@ -47,7 +46,7 @@
 
 ### Replugged
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste line 30-36 of [`Template.theme.css`](https://github.com/Saltssaumure/template-discord-theme/blob/main/Template.theme.css).
+2. Copy and paste lines 30-36 of [`Template.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Template.theme.css).
 3. Edit the variable values and apply changes.
 
 ### Vencord
@@ -56,13 +55,13 @@
 #### Recommended method
 1. Open `Settings` > `Vencord` > `Vencord`.
 2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste line 30-36 of [`Template.theme.css`](https://github.com/Saltssaumure/template-discord-theme/blob/main/Template.theme.css).
+3. Copy and paste lines 30-36 of [`Template.theme.css`](https://github.com/MiniDiscordThemes/blob/main/Template.theme.css).
 4. Edit the variable values.
 
 ## License
-[GNU General Public License v3.0](https://github.com/Saltssaumure/template-discord-theme/blob/main/LICENSE)
-- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, as long as you allow others to do the same with your version.
+[MIT License](https://github.com/MiniDiscordThemes/Template/blob/main/LICENSE)
+- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, just include the original license.
 
 ## Questions or suggestions?
-- Post [an issue](https://github.com/Saltssaumure/template-discord-theme/issues) on GitHub.
+- Post [an issue](https://github.com/MiniDiscordThemes/Template/issues) on GitHub.
 - Post in `#theme-support` on [my support server](https://discord.gg/uy8nKQVatp).
