@@ -12,6 +12,10 @@
         "type": "github",
         "id": "MiniDiscordThemes/Template"
     },
+    // "updater": {
+    //     "type": "store",
+    //     "id": "net.saltssaumure.Template"
+    // },
     "license": "MIT",
     "type": "replugged-theme",
     "main": "scss/temp.scss"
