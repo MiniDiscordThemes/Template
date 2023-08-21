@@ -1,7 +1,4 @@
-[light]: https://user-images.githubusercontent.com/29710355/231909647-72871e7f-8763-4174-9c71-5f1bb7d401bc.png
-[dark]: https://user-images.githubusercontent.com/29710355/231909520-b24c4301-2d90-4c6c-9e5d-ca9ce20e3ba6.png
-
-[screenshot]: https://user-images.githubusercontent.com/29710355/235375875-9faeffdb-0bbb-47aa-a1ba-6ab3d8045ecc.png
+[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
@@ -13,27 +10,27 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-total-dl]:  https://img.shields.io/github/downloads/MiniDiscordThemes/Template/Template.theme.css?color=purple&label=BD%20GitHub%20downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Template/net.saltssaumure.Template.asar?color=purple&label=Replugged%20downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Template?style=flat-square "Total size"
+[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/Template/Template.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Template/net.saltssaumure.Template.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Template?label=Repository&style=flat-square "Total size"
 
-[license]:          https://github.com/MiniDiscordThemes/Template/blob/main/LICENSE
+[github]:           https://github.com/MiniDiscordThemes/Template
 [issues]:           https://github.com/MiniDiscordThemes/Template/issues
+[license]:          https://github.com/MiniDiscordThemes/Template/blob/main/LICENSE
 [.theme.css]:       https://github.com/MiniDiscordThemes/Template/blob/main/Template.theme.css
 
-[release-gh]:       https://github.com/MiniDiscordThemes/Template/releases/latest "Latest GitHub release"
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-rp-store]: https://replugged.dev/install?identifier=MiniDiscordThemes/Template&source=github "Replugged store installer"
-[release-rp-gh]:    https://replugged.dev/install?identifier=net.saltssaumure.Template "Replugged GitHub installer"
-
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.Template "Replugged store page"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/Template/releases/latest/download/Template.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/Template/releases/latest/download/net.saltssaumure.Template.asar "Get latest release"
 
 # Template Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
-[![BetterDiscord GitHub downloads][shield-total-dl]][release-gh]
-[![Replugged downloads][shield-asar-dl]][release-rp-store]
-![Total size][shield-repo-size]
+[![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
+[![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
+[![Total repository size][shield-repo-size]][github]
 
-***A template Discord theme.***
+***A template Discord theme for multiple client mod support.***
 
 ![Screenshot of Template applied to Discord][screenshot]
 
@@ -43,25 +40,37 @@
 
 ## Installation
 
-### BetterDiscord
-1. Install [BetterDiscord][BetterDiscord].
-2. Download the `Template.theme.css` file:
-    - [GitHub][release-gh]
-3. Place theme file in the `themes` folder:
-    - Windows: `%AppData%/BetterDiscord/themes`
-    - Mac: `~/Library/Application Support/betterdiscord/themes`
-    - Linux: `~/.config/BetterDiscord/themes`
+## Installation
 
-### Replugged
-1. Install [Replugged][Replugged].
-2. Install the theme:
-    - [Replugged store][release-rp-store]
-    - [GitHub (auto)][release-rp-gh]
-    - [GitHub (manual)][release-gh]
+### [BetterDiscord][BetterDiscord]
+1. Download `Template.theme.css`:
+    - [BetterDiscord store][release-bd]
+    - [GitHub][release-bd-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
+3. Toggle on the theme card.
 
-### Vencord
-1. Install [Vencord][Vencord].
-2. Paste the following in `Settings` > `Vencord` > `Themes`:
+### [Replugged][Replugged]
+#### Automatic
+1. Click to install:
+    - [Replugged store][release-rp]
+#### Manual
+1. Download `net.saltssaumure.Template.asar`:
+    - [GitHub][release-rp-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
+3. Click `Load Missing Themes` and toggle on the theme card.
+
+### [Vencord][Vencord]
+#### Local
+1. Download `Template.theme.css`:
+    - [BetterDiscord store][release-bd]
+    - [GitHub][release-bd-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
+3. Click `Load missing Themes` and toggle on the theme card.
+#### Online
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
     - `https://minidiscordthemes.github.io/Template/Template.theme.css`
 
 ## Customisation
@@ -81,18 +90,20 @@
 3. Edit the variable values and save changes.
 
 ### Replugged
+1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 1. Open `Settings` > `Replugged` > `Quick CSS`.
-2. Copy and paste lines 30-36 of [`Template.theme.css`][.theme.css].
-3. Edit the variable values and apply changes.
+3. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
+3. Edit the variable values and save.
 
 ### Vencord
-#### Standard method
-1. Follow the instructions in `Settings` > `Vencord` > `Themes`.
-#### Recommended method
-1. Open `Settings` > `Vencord` > `Vencord`.
-2. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
-3. Copy and paste lines 30-36 of [`Template.theme.css`][.theme.css].
-4. Edit the variable values.
+#### Local
+2. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
+3. Open `Template.theme.css` with your favourite text editor.
+4. Edit the variable values and save.
+#### Online
+1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
+2. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
+3. Edit the variable values.
 
 ## License
 [MIT License][license]
