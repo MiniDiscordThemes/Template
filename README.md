@@ -40,8 +40,6 @@
 
 ## Installation
 
-## Installation
-
 ### [BetterDiscord][BetterDiscord]
 1. Download `Template.theme.css`:
     - [BetterDiscord store][release-bd]
@@ -91,15 +89,15 @@
 
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
-1. Open `Settings` > `Replugged` > `Quick CSS`.
+2. Open `Settings` > `Replugged` > `Quick CSS`.
 3. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
-3. Edit the variable values and save.
+4. Edit the variable values and save.
 
 ### Vencord
 #### Local
-2. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
-3. Open `Template.theme.css` with your favourite text editor.
-4. Edit the variable values and save.
+1. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
+2. Open `Template.theme.css` with your favourite text editor.
+3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
 2. Copy and paste lines 15-20 of [`Template.theme.css`][.theme.css].
