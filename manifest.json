@@ -16,7 +16,5 @@
   "type": "replugged-theme",
   "main": "scss/temp.scss",
   "source": "https://github.com/MiniDiscordThemes/Template",
-  "image": [
-    "https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"
-  ]
+  "image": ["https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"]
 }
