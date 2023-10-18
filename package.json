@@ -16,6 +16,7 @@
     "lint:fix": "prettier ./scss --write --log-level warn",
     "release": "replugged release"
   },
+  "type": "module",
   "devDependencies": {
     "@parcel/config-default": "^2.10.0",
     "@parcel/core": "^2.10.0",
