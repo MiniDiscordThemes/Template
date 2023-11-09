@@ -1,9 +1,9 @@
-name: Release for Replugged
+name: Bundle and release for Replugged
 
 on:
   push:
     tags:
-      - "v*"
+      - v*
 
 jobs:
   release:
@@ -35,6 +35,6 @@ jobs:
       - name: Release bundled asar, json, and theme.css
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "bundle/*, *.theme.css"
+          artifacts: bundle/*, *.theme.css
           makeLatest: true
           generateReleaseNotes: true
