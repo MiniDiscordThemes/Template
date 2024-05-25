@@ -28,8 +28,8 @@
 
 # Template Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
-[![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
-[![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
+[![CSS GitHub downloads][shield-bd-dl]][release-bd-gh]
+[![Asar GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
 ***A template Discord theme for multiple client mod support.***
