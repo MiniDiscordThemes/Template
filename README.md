@@ -26,12 +26,12 @@
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.Template "Replugged store page"
 [release-css-gh]:   https://github.com/MiniDiscordThemes/Template/releases/latest/download/Template.theme.css "Get latest release"
-[release-rp-gh]:    https://github.com/MiniDiscordThemes/Template/releases/latest/download/net.saltssaumure.Template.asar "Get latest release"
+[release-asar-gh]:  https://github.com/MiniDiscordThemes/Template/releases/latest/download/net.saltssaumure.Template.asar "Get latest release"
 
 # Template Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![CSS GitHub downloads][shield-css-dl]][release-css-gh]
-[![Asar GitHub downloads][shield-asar-dl]][release-rp-gh]
+[![Asar GitHub downloads][shield-asar-dl]][release-asar-gh]
 [![Total repository size][shield-repo-size]][github]
 
 ***A template Discord theme for multiple client mod support.***
@@ -63,7 +63,7 @@
     - [Replugged store][release-rp]
 #### Manual
 1. Download `net.saltssaumure.Template.asar`:
-    - [GitHub][release-rp-gh]
+    - [GitHub][release-asar-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
 3. Click `Load Missing Themes` and toggle on the theme card.
